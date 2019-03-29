@@ -1,0 +1,19 @@
+BODY {font-size: 11pt;
+  background-image : url("b010bcg.gif");
+  background-attachment: fixed;
+  background-position: 0% 0%;
+  background-repeat: repeat;
+  background-color:#FFFFFF;
+  
+}
+
+b {
+	font-family: "Century Gothic";
+	font-size: 18pt;
+	font-weight: bold;
+	color: #ffaa00;
+}
+
+table {font-family:Verdana;color:black;
+  width: 600px; height: 200px;
+}

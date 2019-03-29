@@ -1,0 +1,16 @@
+BODY {font-size: 11pt;
+  background-image : url("hi_2006.gif");
+  background-attachment: fixed;
+  background-position: 0% 0%;
+  background-repeat: repeat;
+  background-color:#FFFFFF;
+  font-family:Verdana;color:black;
+}
+#t{ width: 600px; height: 200px; }
+
+b {
+	font-family: "Century Gothic";
+	font-size: 18pt;
+	font-weight: bold;
+	color: #ffaa00;
+}

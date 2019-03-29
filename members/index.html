@@ -1,0 +1,294 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+ "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+<head>
+
+<!-- 外部スタイルシートの読み込み -->
+<link rel="stylesheet" type="text/css" href="../css/common.css">
+
+<!-- 文字コードの設定 -->
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<!-- 基準スタイルシート言語の設定 -->
+<meta http-equiv="Content-Style-Type" content="text/css">
+<!-- 基準スクリプト言語の設定 -->
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+
+<!-- タイトル -->
+<title>え～でるのHP</title>
+
+<!-- アイコン -->
+<link rel="shortcut icon" href="erjo.png" type="image/png">
+
+<style type="text/css">
+<!--
+
+table.tabulation {
+	margin-top:		20px;
+	margin-bottom:		20px;
+	border-collapse:	collapse;
+}
+
+.tabulation-cell {
+	border:		1px solid gray;
+	padding:	5px;
+}
+
+-->
+</style>
+
+<!-- Image Switcherの読み込み -->
+<script type="text/javascript" src="../js/imgswitcher.js"></script>
+
+<script type="text/javascript">
+<!--
+
+/*	Image Switcherの設定	*/
+var imgsw = new ImgSwitcher();
+imgsw.rgst("menu-icon1", "../image/menu-about.png", "../image/menu-about-b.png");
+imgsw.rgst("menu-icon2", "../image/menu-members.png", "../image/menu-members-b.png");
+imgsw.rgst("menu-icon3", "../image/menu-schedule.png", "../image/menu-schedule-b.png");
+imgsw.rgst("menu-icon4", "../image/menu-report.png", "../image/menu-report-b.png");
+imgsw.rgst("menu-icon5", "../image/menu-bbs.png", "../image/menu-bbs-b.png");
+imgsw.rgst("menu-icon6", "../image/menu-scores.png", "../image/menu-scores-b.png");
+imgsw.rgst("menu-icon7", "../image/menu-links.png", "../image/menu-links-b.png");
+
+// -->
+</script>
+
+</head>
+
+<body>
+
+<!-- 領域分割テーブル -->
+<table class="partition-table">
+
+<!-- 最上領域 -->
+<tr><td class="partition-table-cell" colspan="2">
+
+	<!-- タイトル -->
+	<div id="title"><a href="../index.html"><img src="../image/title.png" width="587" height="70"></a></div>
+
+</td></tr>
+
+<!-- サブタイトル領域 -->
+<tr><td class="partition-table-cell" colspan="2">
+
+	<!-- サブタイトル -->
+	<div id="subtitle" class="band"><img src="../image/subtitle.png" width="556" height="22"></div>
+
+</td></tr>
+
+<tr>
+
+<!-- メニュー領域 -->
+<td class="partition-table-cell" rowspan="2" valign="top">
+
+	<!-- メニューフレーム -->
+	<table id="menu-frame">
+	
+	<!-- メニューフレーム見出し -->
+	<tr><td id="menu-frame-heading"><img src="../image/heading-menu.png" width="168" height="35"></td></tr>
+	
+	<!-- メニューフレーム本体 -->
+	<tr><td id="menu-frame-body">
+	
+	<div class="menu-icon">
+		<a href="../about.html">
+		<img name="menu-icon1" onmouseover="imgsw.sw(this, 1);" onmouseout="imgsw.sw(this, 0);" src="../image/menu-about.png">
+		</a>
+	</div>
+	<div class="menu-icon">
+		<a href="../members/index.html">
+		<img name="menu-icon2" onmouseover="imgsw.sw(this, 1);" onmouseout="imgsw.sw(this, 0);" src="../image/menu-members.png">
+		</a>
+	</div>
+	<div class="menu-icon">
+		<a href="../schedule/new.html">
+		<img name="menu-icon3" onmouseover="imgsw.sw(this, 1);" onmouseout="imgsw.sw(this, 0);" src="../image/menu-schedule.png">
+		</a>
+	</div>
+	<div class="menu-icon">
+		<a href="http://ameblo.jp/edel-jazz/" target="_blank">
+		<img name="menu-icon4" onmouseover="imgsw.sw(this, 1);" onmouseout="imgsw.sw(this, 0);" src="../image/menu-report.png">
+		</a>
+	</div>
+	<div class="menu-icon">
+		<a href="http://www2.rocketbbs.com/420/edel.html" target="_blank">
+		<img name="menu-icon5" onmouseover="imgsw.sw(this, 1);" onmouseout="imgsw.sw(this, 0);" src="../image/menu-bbs.png">
+		</a>
+	</div>
+	<div class="menu-icon">
+		<a href="../links.html">
+		<img name="menu-icon7" onmouseover="imgsw.sw(this, 1);" onmouseout="imgsw.sw(this, 0);" src="../image/menu-links.png">
+		</a>
+	</div>
+	
+	</td></tr>
+	
+	</table>
+
+</td>
+
+<!-- コンテンツ領域 -->
+<td class="partition-table-cell">
+
+	<!-- コンテンツ領域分割テーブル -->
+	<table class="partition-table">
+	
+	<!-- コンテンツ領域 -->
+	<tr><td class="partition-table-cell">
+	
+		<!-- コンテンツフレーム -->
+		<table class="content-frame">
+		
+		<!-- コンテンツフレーム見出し -->
+		<tr><td class="content-frame-heading"><img src="../image/heading-members.png" width="584" height="35"></td></tr>
+		
+		<!-- コンテンツフレーム本体 -->
+		<tr><td class="content-frame-body">
+		
+		<div class="subheading">現在の人数構成</div>
+		
+		<table class="tabulation">
+			<tr>
+				<td class="tabulation-cell"></td>
+				<th class="tabulation-cell">1年</th>
+				<th class="tabulation-cell">2年</th>
+				<th class="tabulation-cell">3年</th>
+				<th class="tabulation-cell">合計</th>
+			</tr>
+			<tr>
+				<th class="tabulation-cell">A.Sax</th>
+				<td class="tabulation-cell">2</td>
+				<td class="tabulation-cell">3</td>
+				<td class="tabulation-cell">1</td>
+				<td class="tabulation-cell">6</td>
+			</tr>
+			<tr>
+				<th class="tabulation-cell">T.Sax</th>
+				<td class="tabulation-cell">2</td>
+				<td class="tabulation-cell">2</td>
+				<td class="tabulation-cell">3</td>
+				<td class="tabulation-cell">7</td>
+			</tr>
+			<tr>
+				<th class="tabulation-cell">B.Sax</th>
+				<td class="tabulation-cell">2</td>
+				<td class="tabulation-cell">0</td>
+				<td class="tabulation-cell">2</td>
+				<td class="tabulation-cell">4</td>
+			</tr>
+			<tr>
+				<th class="tabulation-cell">Trumpet</th>
+				<td class="tabulation-cell">5</td>
+				<td class="tabulation-cell">3</td>
+				<td class="tabulation-cell">4</td>
+				<td class="tabulation-cell">13</td>
+			</tr>
+			<tr>
+				<th class="tabulation-cell">Trombone</th>
+				<td class="tabulation-cell">4</td>
+				<td class="tabulation-cell">6</td>
+				<td class="tabulation-cell">6</td>
+				<td class="tabulation-cell">16</td>
+			</tr>
+			<tr>
+				<th class="tabulation-cell">Piano</th>
+				<td class="tabulation-cell">3</td>
+				<td class="tabulation-cell">2</td>
+				<td class="tabulation-cell">0</td>
+				<td class="tabulation-cell">5</td>
+			</tr>
+			<tr>
+				<th class="tabulation-cell">Guitar</th>
+				<td class="tabulation-cell">3</td>
+				<td class="tabulation-cell">2</td>
+				<td class="tabulation-cell">1</td>
+				<td class="tabulation-cell">6</td>
+			</tr>
+			<tr>
+				<th class="tabulation-cell">Bass</th>
+				<td class="tabulation-cell">2</td>
+				<td class="tabulation-cell">1</td>
+				<td class="tabulation-cell">2</td>
+				<td class="tabulation-cell">5</td>
+			</tr>
+			<tr>
+				<th class="tabulation-cell">Drums</th>
+				<td class="tabulation-cell">2</td>
+				<td class="tabulation-cell">2</td>
+				<td class="tabulation-cell">2</td>
+				<td class="tabulation-cell">6</td>
+			</tr>
+			<tr>
+				<th class="tabulation-cell">合計</th>
+				<td class="tabulation-cell">25</td>
+				<td class="tabulation-cell">21</td>
+				<td class="tabulation-cell">21</td>
+				<td class="tabulation-cell">67</td>
+			</tr>
+		</table>
+		
+		<br>
+		
+		<div class="subheading"><a class="label" name="introduction">メンバー紹介</a></div>
+		
+		<p style="color: red;">※年度は入部年度</p>
+		
+		<ul>
+
+
+		<li><a href="2018/index.html">2018年度 (現役新1年生)</a>
+		<li><a href="2017/index.html">2017年度 (現役新2年生)</a>
+		<li><a href="2016/index.html">2016年度 (現役新3年生)</a>
+		<li><a href="2015/index.html">2015年度</a>
+		<li><a href="2014/index.html">2014年度</a>
+		<li><a href="2013/index.html">2013年度</a>
+		<li><a href="2012/index.html">2012年度</a>
+		<li><a href="2011/index.html">2011年度</a>
+		<li><a href="2010/index.html">2010年度</a>
+		<li><a href="2009/index.html">2009年度</a>
+		<li><a href="2008/index.html">2008年度</a>
+		<li><a href="2007/07top.html">2007年度</a>
+		<li><a href="2006/06top.html">2006年度</a>
+		<li><a href="2005/05top.html">2005年度</a>
+		<li><a href="2004/04top.html">2004年度</a>
+		<li><a href="2003/03top.html">2003年度</a>
+		<li><a href="2002/02top.html">2002年度</a>
+		<li><a href="2001/01top.html">2001年度</a>
+		<li><a href="2000/00top.html">2000年度</a>
+		<li><a href="1999/99top.html">1999年度</a>
+		<li><a href="1998/98top.html">1998年度</a>
+		<li><a href="1997/97top.html">1997年度</a>
+		<li><a href="1996/96top.html">1996年度</a>
+		<li><span style="color: gray;">1995年度</span>
+		<li><a href="1994/94top.html">1994年度</a>
+		</ul>
+		
+		</td></tr>
+		
+		</table>
+	
+	</td></tr>
+	
+	</table>
+
+</td>
+
+</tr>
+
+<!-- 著作権表示領域 -->
+<tr><td class="partition-table-cell">
+
+	<!-- 著作権表示 -->
+	<div id="copyright" class="band">COPYRIGHT(C) 2010-2018 Edel R&ouml;te All Rights Reserved.</div>
+
+</td></tr>
+
+</table>
+
+</body>
+
+</html>

@@ -1,0 +1,170 @@
+/*	画像ボーダー回避	*/
+img {
+	border-width:	0px;
+}
+
+/*	リンク	*/
+a {
+	color:			black;
+	text-decoration:	underline;
+}
+
+/*	クリックされた瞬間のリンク	*/
+a:active {
+	color:	red;
+}
+
+/*	カーソルが当たっている状態のリンク	*/
+a:hover {
+}
+
+/*	ラベル	*/
+a.label {
+	color:			black;
+	text-decoration:	none;
+}
+
+/*	帯	*/
+div.band {
+	padding:	8px;
+	border-top:	4px solid #B90030;
+	border-bottom:	4px solid #B90030;
+}
+
+/*	領域分割テーブル	*/
+table.partition-table {
+	border-collapse:	collapse;
+}
+
+/*	領域分割テーブルのセル	*/
+td.partition-table-cell {
+	padding:	0px;
+}
+
+/*	コンテンツフレーム	*/
+table.content-frame {
+	width:			586px;			/*	画像幅(584px) + ボーダー幅(2px)	*/
+	margin-top:		10px;
+	margin-left:		15px;
+	margin-bottom:		10px;
+	border-collapse:	collapse;
+	border-left:		2px solid #B90030;
+}
+
+/*	コンテンツフレーム見出し	*/
+td.content-frame-heading {
+	padding:	0px;
+}
+
+/*	コンテンツフレーム本体	*/
+td.content-frame-body {
+	padding:	15px;
+	color:		black;
+	font-size:	10pt;
+}
+.profile-table{
+	border-collapse: collapse;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.image-field{
+	width: 200px;
+}
+.free-field{
+	border: solid 1px #eab735;
+}
+.comment-field{
+	border-bottom: solid 1px #830009;
+	/*color: rgb(131, 0, 9);*/
+	font-size: 15px;
+}
+
+.schedule-table{
+	border-collapse: collapse;
+}
+.schedule-table tr{
+	height: 80px;
+}
+.schedule-table th{
+	padding: 10px 0px 10px 0px !important;
+	height: 40px !important;
+}
+.schedule-table td{
+	padding: 0px 30px 0px 30px;
+	border: solid 1px #eab735;
+}
+.date-field{
+	text-align: center;
+}
+/*	メニューアイコン	*/
+div.menu-icon {
+	margin-bottom:	15px;
+}
+
+/*	New	*/
+span.new {
+	color:		red;
+	font-size:	10pt;
+	font-weight:	bold;
+}
+
+/*	小見出し	*/
+div.subheading {
+	width:		200px;
+	padding-left:	5px;
+	border-left:	5px solid black;
+	border-bottom:	1px dotted black;
+	font-weight:	bold;
+}
+
+/*	タイトル	*/
+#title {
+	margin-bottom:	15px;
+}
+
+/*	サイト情報	*/
+#site-info {
+	color:		black;
+	font-size:	10pt;
+	text-align:	right;
+}
+
+/*	サブタイトル	*/
+#subtitle {
+	margin-bottom:	10px;
+}
+
+/*	メニューフレーム	*/
+#menu-frame {
+	width:			168px;			/*	画像幅(168px)	*/
+	margin-top:		10px;
+	margin-right:		15px;
+	border-collapse:	collapse;
+}
+
+/*	メニューフレーム見出し	*/
+#menu-frame-heading {
+	padding:	0px;
+}
+
+/*	メニューフレーム本体	*/
+#menu-frame-body {
+	padding-top:	15px;
+	padding-left:	15px;
+}
+
+/*	お問い合わせフレーム	*/
+#inquiry-frame {
+	margin-top:	20px;
+}
+
+/*	著作権表示	*/
+#copyright {
+	margin-top:	10px;
+	margin-left:	15px;
+	color:		#B90030;
+	font-size:	10pt;
+	font-weight:	bold;
+	text-align:	right;
+}
