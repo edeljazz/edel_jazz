@@ -401,12 +401,23 @@ footer{
     width: auto;
   }
   .headerUl{
-    margin-top: 30px;
+    margin-top: 55px;
   }
   .headerLi{
     display: block;
     width: auto;
     text-align: left;
+    color: #3e3e3e;
+  }
+  .headHome{
+    background-color: #e4e4e4;
+    padding-left: 10%;
+    position: relative;
+    top:52px;
+    color: #3e3e3e;
+  }
+  .headHomeS {
+    border-bottom: none !important;
   }
   .spTopImage{
     text-align:center;
