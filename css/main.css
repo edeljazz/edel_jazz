@@ -27,7 +27,7 @@ header{
   padding-top: 12px;
 }
 .logo img{
-  width: 13%;
+  width: 10%;
 }
 .headerUl{
   list-style: none;
@@ -52,7 +52,7 @@ header{
 }
 
 .main{
-  padding-top: 142px;
+  padding-top: 143px;
   margin: 0px 10%;
 }
 .topImage{
@@ -276,6 +276,52 @@ footer{
   text-decoration: none;
   color : #231815;
   color : rgb(35, 24, 21);
+}
+
+.partIntroduction{
+
+}
+.partName{
+  margin: 0 auto;
+  background-color: #a6a6a6;
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+  line-height: 36px;
+}
+.member{
+  width : calc(100% / 3) ;
+  margin-bottom: 30px;
+}
+.members{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+}
+.member img{
+  width: 80%;
+  margin-left: 10%;
+}
+.introductionName{
+
+}
+.introductionName p{
+  text-align: center;
+  width: 80%;
+  margin-left: 10%;
+  margin: 0 auto;
+  font-size: 20px;
+  border-bottom: solid 2px #c59339;
+}
+.kana{
+  font-size: 12px !important;
+  border-bottom: none !important;
+}
+.introductionMessage{
+  margin: 10px 12%;
+}
+.introductionMessage p{
+
 }
 
 /*スケジュールページ*/
@@ -554,6 +600,42 @@ footer{
     font-size: 13px;
     line-height: 1.69231;
   }
+
+  .partIntroduction{
+
+  }
+  .partName{
+    margin: 0 auto;
+    background-color: #a6a6a6;
+    color: white;
+    padding-left: 10px;
+    line-height: 36px;
+    margin-bottom: 30px;
+  }
+  .member{
+    margin-bottom: 50px;
+    width: 100%;
+  }
+  .members{
+    display: block;
+  }
+  .member img{
+    width: 90%;
+    margin-left: 5%;
+  }
+  .introductionName{
+
+  }
+  .introductionName p{
+    text-align: center;
+  }
+  .introductionMessage{
+    margin: 10px 12%;
+  }
+  .introductionMessage p{
+    font-size: 14px;
+  }
+
   #nav-drawer {
     position: relative;
   }
