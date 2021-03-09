@@ -57,8 +57,7 @@ header{
   margin: 0px 10%;
 }
 .topImage{
-  /*width: 100%;*/
-  width: auto;
+  width: 100%;
 }
 .topText{
   /*font-family : Bodoni 72;*/
