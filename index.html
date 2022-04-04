@@ -368,28 +368,53 @@
 
 
       <div class="event">
-        <h2 class="topText">Event</h2>
+        <h2 class="topText">Movie</h2>
         <div class="eveD">
           <table class="eveT">
             <tr>
-              <!-- 日付 -->
+              <!-- 日付
               <td class="eveDate">
                 2021/3/7(日)
               </td>
-              <!-- 内容 -->
+              <!-- 内容
               <td class="eveP">
                 <p>
-                  第55回定期演奏会
-                </p>
+                  第55回定期演奏会 -->
               </td>
             </tr>
+            
+           
+              <style>
+                .horizontal-list {
+                  overflow-x: auto;
+                  white-space: nowrap;
+                  -webkit-overflow-scrolling: touch;
+                }
 
+                .item {
+                  /* 横スクロール用 */
+                  display: inline-block;
+                  width: 55%;
+                  margin: 0px;
+                }
 
-          </table>
-          <a href="schedule/schedule.html" class="eveA">もっと見る</a>
-        </div>
-      </div>
-
+              </style>
+            </head>
+            <body>
+              <ul class="horizontal-list">
+                <li class="item">
+                  <div><br><iframe width="560" height="315" src="https://www.youtube.com/embed/KsKWPN-wSnA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                </li>
+                <li class="item">
+                <div><iframe width="560" height="315" src="https://www.youtube.com/embed/NsreJI78UJA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                </li>
+                <!-- ここからコピー　-->
+                <li class="item">
+                  <div><iframe width="560" height="315" src="https://www.youtube.com/embed/fgZWFA8jIQI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                </li>
+                <!-- ここまで　-->
+              </ul>
+            </body>
 
       <div class="profile">
         <h2 class="topText">Profile</h2>
@@ -408,9 +433,9 @@
       <div class="icon">
         <div class="iconData">
           <div class="facebook">
-            <a href="https://www.facebook.com/edelrotejazz/" target="_blank">
-              <i class="fab fa-facebook-square"></i>
-              <p>facebook</p>
+            <a href="https://instagram.com/edel_rote_j_o_?utm_medium=copy_link" target="_blank">
+                <i class="fab fa-instagram"></i>
+              <p>Instagram</p>
             </a>
           </div>
           <div class="twitter">
@@ -420,13 +445,15 @@
             </a>
           </div>
           <div class="youtube">
-            <a href="https://www.youtube.com/channel/UCDBSAEqORnpwRNtFYC0Jh3w" target="_blank">
+            <a href="https://www.youtube.com/channel/UCQlsJ1CrDImOy-cpJhirERA" target="_blank">
               <i class="fab fa-youtube"></i>
-              <p>youtube</p>
+              <p>YouTube</p>
             </a>
           </div>
         </div>
       </div>
+
+
     </main>
 
     <div id=footer></div>
