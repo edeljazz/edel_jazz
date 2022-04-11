@@ -428,7 +428,6 @@ footer{
 
 /* スマートフォン向け */
 @media screen and (max-width: 499px) {
-
   .main{
     margin:0 15px;
     padding-top: 60px;
@@ -759,5 +758,17 @@ footer{
     transform: translateX(0%);/*中身を表示（右へスライド）*/
     box-shadow: 6px 0 25px rgba(0,0,0,.15);
   }
+  .item {
+   position: relative;
+   width: 100%;
+   padding-top: 56.25%;
+ }
+ .item iframe {
+   position: absolute;
+   top: 0;
+   right: 0;
+   width: 100% !important;
+   height: 100% !important;
+ }
  
 }
