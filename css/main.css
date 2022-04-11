@@ -760,8 +760,8 @@ footer{
   }
   .item {
    position: relative;
-   width: 60%;
-   padding-top: 33.75%;
+   width: 50%;
+   padding-top: 28.125%;
  }
  .item iframe {
    position: absolute;
