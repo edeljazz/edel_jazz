@@ -168,3 +168,13 @@ div.subheading {
 	font-weight:	bold;
 	text-align:	right;
 }
+
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    
+}
+.scrolling-wrapper .item {
+    display: inline-block;
+}

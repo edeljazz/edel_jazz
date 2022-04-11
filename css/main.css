@@ -404,6 +404,14 @@ footer{
   color : rgb(35, 24, 21);
 }
 
+.movie {
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+.item {
+    display: inline-block;
+}
+
 /*タブレット向け*/
 @media screen and (max-width: 1024px){
   .footerUl{
@@ -698,7 +706,7 @@ footer{
   .sp_menu_button.open #nav-open span:after {
    transform: rotate(-90deg) translateX(8px);
   }
-
+  
   /*閉じる用の薄黒カバー*/
   #nav-close {
     display: none;/*はじめは隠しておく*/
@@ -751,6 +759,5 @@ footer{
     transform: translateX(0%);/*中身を表示（右へスライド）*/
     box-shadow: 6px 0 25px rgba(0,0,0,.15);
   }
-
-
+ 
 }
