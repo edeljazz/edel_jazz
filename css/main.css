@@ -403,16 +403,7 @@ footer{
   color : #231815;
   color : rgb(35, 24, 21);
 }
-.movie1 {
-    background: #fff;
-      overflow: hidden;
-}
 
-.movie {
-    max-width: 100%;
-      margin: 0 auto;
-      padding: 30px 0;
-}
 .slick01 {
     background-color: #e6e6e6;
     padding: 5% 0;
@@ -432,14 +423,6 @@ footer{
     height: 100%;
 }
 
-.slick-prev:before, .slick-next:before {
-    color: #000 !important;/*黒にする*/
-    opacity: 1;/*デフォルトは.75が指定されている*/
-}
-
-.slick01 .slick-list {
-    overflow: visible !important;
-}
 /*
 button{
     margin: 0;
