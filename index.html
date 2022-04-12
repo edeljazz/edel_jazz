@@ -12,7 +12,8 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <!-- 外部スタイルシートの読み込み -->
   <link rel="stylesheet" type="text/css" href="css/main.css">
-
+　<link rel="stylesheet" type="text/css" href="css/slick.css">
+  <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
   <!-- 文章の概要 -->
   <meta name="Description" content="名古屋大学軽音楽部エーデルレーテJ.O.の公式HPです。">
   <!-- 文章のキーワード -->
@@ -40,6 +41,7 @@
       $("#footer").load("./footer.html");
     })
   </script>
+  <script type="text/javascript" src="js/slick.min.js"></script>
 
   <!-- font awesome　の使用 -->
   <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
@@ -369,6 +371,7 @@
 
       <div class="event">
         <h2 class="topText">Movie</h2>
+        <!--
         <div class="eveD">
           <table class="eveT">
             <tr>
@@ -382,28 +385,13 @@
                   第55回定期演奏会 -->
               </td>
             </tr>
-            
-            <div class="movie">
-              <div class="item"><iframe width="560" height="315" src="https://www.youtube.com/embed/KsKWPN-wSnA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-              <div class="item"><iframe width="560" height="315" src="https://www.youtube.com/embed/NsreJI78UJA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-              <div class="item"><iframe width="560" height="315" src="https://www.youtube.com/embed/fgZWFA8jIQI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-              </div>
- 　<!-- <style>
-      .item {
-       position: relative;
-       width: 40%;
-       padding-top: 22.5%;
-     }
-     .item iframe {
-       position: absolute;
-       top: 0;
-       right: 0;
-       width: 100% !important;
-       height: 100% !important;
-     }
-     </style> -->
-            
-           
+ 
+    
+            <div class="slick01">
+                <li><iframe width="560" height="315" src="https://www.youtube.com/embed/KsKWPN-wSnA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+                <li><iframe width="560" height="315" src="https://www.youtube.com/embed/NsreJI78UJA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+                <li><iframe width="560" height="315" src="https://www.youtube.com/embed/fgZWFA8jIQI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+           </div>
 
       <div class="profile">
         <h2 class="topText">Profile</h2>
