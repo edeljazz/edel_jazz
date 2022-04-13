@@ -405,15 +405,15 @@ footer{
 }
 
 .slick01 {
-    background-color: #e6e6e6;
-    padding: 5% 0;
+    background: #e6e6e6;
+    padding: 3% 0;
+    margin: 0 auto; */
 }
 
 .item {
     position: relative;
     width: 90%;
-    padding-top: 50.625%;
-    margin: 0 auto;
+    padding: 25.32% 0;
 }
 .item iframe {
     position: absolute;
@@ -423,7 +423,6 @@ footer{
     height: 100%;
 }
 
-/*
 button{
     margin: 0;
     padding: 0;
@@ -434,24 +433,22 @@ button{
     -webkit-appearance: none;
     -moz-appearance: none;
 }
-.slick-dots{
-    bottom: 10px !important;
-}
 .slick-dots li{
     width:30px !important;
 }
 /*ドットのサイズ*/
-/*
 .slick-dots li button:before{
-    font-size:30px !important;/*初期値は6px*/
-/*
+    font-size: 30px !important;/*初期値は6px*/
+    color:rgb(131, 0, 9)!important;
 }
+
 .slide-arrow{
     position: absolute;
     top: 50%;
+    background: none;
 }
 .prev-arrow{
-  left: -40px;
+  left: -60px;
   width: 0;
   height: 0;
   border-left: 0 solid transparent;
