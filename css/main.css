@@ -433,6 +433,7 @@ button{
     -webkit-appearance: none;
     -moz-appearance: none;
 }
+
 .slick-dots li{
     width:30px !important;
 }
@@ -448,13 +449,13 @@ button{
     background: none;
 }
 .prev-arrow{
-  left: -60px;
+  left: -40px;
   width: 0;
   height: 0;
   border-left: 0 solid transparent;
-  border-right: 30px solid rgb(131, 0, 9);
-  border-top: 20px solid transparent;
-  border-bottom: 20px solid transparent;
+  border-right: 15px solid rgb(131, 0, 9);
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
 }
 .next-arrow{
   right: -40px;
@@ -812,17 +813,3 @@ button{
     transform: translateX(0%);/*中身を表示（右へスライド）*/
     box-shadow: 6px 0 25px rgba(0,0,0,.15);
   }
-  .item {
-   position: relative;
-   width: 55%;
-   padding-top: 30.94%;
- }
- .item iframe {
-   position: absolute;
-   top: 0;
-   right: 0;
-   width: 100% !important;
-   height: 100% !important;
- }
- 
-}
