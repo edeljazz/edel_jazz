@@ -459,6 +459,106 @@ button{
     color:rgb(131, 0, 9)!important;
 }
 
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.list {
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.list li {
+    /*
+  list-style: none;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgb(35,24,21);
+  box-sizing: border-box;
+  margin: 0;
+  vertical-align: middle;
+  padding: 20px 0;
+  height: auto;
+  overfllow: hidden;
+     */}
+.litra {
+    transition-duration: 2s;
+}
+.listdate {
+    flex-basis: 20%!important;
+    text-align:center;
+    list-style: none;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgb(35,24,21);
+    box-sizing: border-box;
+    margin: 0;
+    vertical-align: middle;
+    padding: 20px 0;
+    height: auto;
+    overfllow: hidden;
+}
+.listbun {
+    flex-basis: 80%!important;
+    text-align: left;
+    list-style: none;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgb(35,24,21);
+    box-sizing: border-box;
+    margin: 0;
+    vertical-align: middle;
+    padding: 20px 0;
+    height: auto;
+    overfllow: hidden;
+}
+
+.list li.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+  margin: 0 10px;
+  padding: 0;
+}
+
+.more {
+  text-align: center;
+  margin-top: 20px;
+}
+
+button {
+  background-color: #5C6BC0;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  padding: 0;
+  line-height: 40px;
+  width: 160px;
+  border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
 /*タブレット向け*/
 @media screen and (max-width: 1024px){
