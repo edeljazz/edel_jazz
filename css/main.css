@@ -486,34 +486,31 @@ button{
   height: auto;
   overfllow: hidden;
      */}
-.litra {
-    transition-duration: 2s;
-}
+
 .listdate {
-    flex-basis: 20%!important;
+    flex-basis: calc(20% - 2px)!important;
     text-align:center;
     list-style: none;
     font-size: 16px;
     line-height: 32px;
     color: rgb(35,24,21);
     box-sizing: border-box;
-    margin: 0;
     vertical-align: middle;
-    padding: 20px 0;
     height: auto;
+    padding: 1px;
     overfllow: hidden;
 }
 .listbun {
-    flex-basis: 80%!important;
+    flex-basis: calc(80% - 12px)!important;
     text-align: left;
     list-style: none;
     font-size: 16px;
     line-height: 32px;
     color: rgb(35,24,21);
     box-sizing: border-box;
-    margin: 0;
+    margin: 16px 0 16px 10px;
     vertical-align: middle;
-    padding: 20px 0;
+    padding: 1px;
     height: auto;
     overfllow: hidden;
 }
@@ -531,8 +528,8 @@ button{
   margin-top: 20px;
 }
 
-button {
-  background-color: #5C6BC0;
+.more button {
+  background-color: rgb(131, 0, 9);
   border: none;
   cursor: pointer;
   outline: none;
@@ -568,14 +565,14 @@ button {
 }
 
 /* pc画面向け*/
-@media screen and (min-width:480px) {
+@media screen and (min-width:700px/*480px*/) {
   #nav-drawer {
     display:none;
   }
 }
 
 /* スマートフォン向け */
-@media screen and (max-width: 499px) {
+@media screen and (max-width: 700px/*499px*/ ) {
   .main{
     margin:0 15px;
     padding-top: 60px;
@@ -906,3 +903,52 @@ button {
     transform: translateX(0%);/*中身を表示（右へスライド）*/
     box-shadow: 6px 0 25px rgba(0,0,0,.15);
   }
+/*
+  .list li {
+      text-align: center;
+      width: 100%;
+      font-size:13px;
+      line-height: 1.69231;
+      height: auto;
+      overfllow: hidden;
+      padding: 0;
+  }
+  /*
+  .listdate {
+      flex-basis: 20%!important;
+      text-align:center;
+      list-style: none;
+      font-size: 16px;
+      line-height: 32px;
+      color: rgb(35,24,21);
+      box-sizing: border-box;
+      margin: 0;
+      vertical-align: middle;
+      padding: 20px 0;
+      height: auto;
+      overfllow: hidden;
+  }
+  /*
+  .listbun {
+      flex-basis: 80%!important;
+      text-align: left;
+      list-style: none;
+      font-size: 16px;
+      line-height: 32px;
+      color: rgb(35,24,21);
+      box-sizing: border-box;
+      margin: 0;
+      vertical-align: middle;
+      padding: 20px 0;
+      height: auto;
+      overfllow: hidden;
+  }
+  .infoT td{
+    display: block;
+  }
+  .infoT tr{
+    margin: 20px 0px;
+  }
+  .infoP p{
+    margin:0px 20px 40px 20px;
+ */
