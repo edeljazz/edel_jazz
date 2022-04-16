@@ -959,6 +959,9 @@ button{
         width: 100%;
         
   }
+  .twitter-timeline {
+      height: initial!important;
+  }
   .instagram-media {
       max-width: 100%!important;
       min-width: 100%!important;
