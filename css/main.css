@@ -950,8 +950,6 @@ button{
   }
   .info2 {
       width: 100%;
-      display: flex;
-      flex-wrap: wrap;
         margin: 0;
         padding: 0;
         
@@ -963,12 +961,10 @@ button{
   }
   .instagram-media {
       max-width: 100%!important;
-      min-width: 90%!important;
+      min-width: 100%!important;
   }
   .snss {
         display: flex;
-        width: 50%;
-        height: 300px;
         
   }
   
