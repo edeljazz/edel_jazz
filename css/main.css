@@ -433,7 +433,7 @@ button{
   color : rgb(35, 24, 21);
 }
 
-/*ムービーページ*/
+/*ムービーページ(リニューアル追加)*/
 .movie-list {
     background: #e6e6e6;
     padding: 3% 0;
@@ -528,17 +528,6 @@ button{
 }
 
 
-
-
-
-
-
-
-
-
-
-
- 
 /*タブレット向け*/
 @media screen and (max-width: 1024px){
   .footerUl{
