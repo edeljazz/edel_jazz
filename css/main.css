@@ -962,9 +962,9 @@ button{
         
   }
   .snss {
-        display: block;
+        display: flex;
         width: 50%;
-        height: 300px;
+        height: auto;
         
   }
   
