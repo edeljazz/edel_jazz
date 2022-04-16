@@ -535,10 +535,6 @@ button{
   width: 160px;
   border-radius: 20px;
 }
-.insta {
-    visibility:hidden;
-}
-
 
 
 
@@ -950,38 +946,10 @@ button{
   }
   .info2 {
       width: 100%;
+      height: 380px;
         margin: 0;
         padding: 0;
-        
   }
-  .insta {
-        display: block;
-        visibility: visible;
-        width: 50%;
-        
-  }
-  .twitter-timeline {
-      height: initial!important;
-  }
-  .instagram-media {
-      max-width: 100%!important;
-      min-width: 90%!important;
-      border: none!important;
-      margin: 0px 0px 0px 5px!important;
-  }
-  .PrimaryCTA a {
-      color: #860009!important;
-  }
-  a.ViewProfileButton {
-      background-color: #860009!important;
-  }
-  
-  .timeline-Header-title  {
-      color :#860009!important;
-  }
-  .snss {
-        display: flex;
-        
-  }
-  
+
+       
 }
