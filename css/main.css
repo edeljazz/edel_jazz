@@ -963,7 +963,7 @@ button{
   }
   .instagram-media {
       max-width: 100%!important;
-      min-width: 100px!important;
+      min-width: 90%!important;
   }
   .snss {
         display: flex;
