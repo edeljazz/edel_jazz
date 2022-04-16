@@ -536,7 +536,7 @@ button{
   border-radius: 20px;
 }
 .insta {
-    display: none;
+    visibility:hidden;
 }
 
 
@@ -956,6 +956,7 @@ button{
   }
   .insta {
         display: block;
+        visibility: visible;
         width: 50%;
         
   }
