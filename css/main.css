@@ -971,7 +971,7 @@ button{
   .PrimaryCTA a {
       color: #860009!important;
   }
-  .ViewProfileButton {
+  a.ViewProfileButton, a.FollowButton  {
       background-color: #860009!important;
   }
   .snss {
