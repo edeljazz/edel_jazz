@@ -961,6 +961,9 @@ button{
         width: 100%;
         
   }
+  .instagram-media {
+      max-width: 100%!important;
+  }
   .snss {
         display: flex;
         width: 50%;
