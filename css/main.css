@@ -971,8 +971,12 @@ button{
   .PrimaryCTA a {
       color: #860009!important;
   }
-  a.ViewProfileButton, a.FollowButton  {
+  a.ViewProfileButton {
       background-color: #860009!important;
+  }
+  
+  .timeline-Header-title  {
+      color :#860009!important;
   }
   .snss {
         display: flex;
