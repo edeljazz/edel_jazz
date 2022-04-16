@@ -16,7 +16,7 @@ $(function() {
       ]
     });
     /*もっと見るボタン*/
-    var show = 8; //最初に表示する件数
+    var show = 8; //最初に表示する件数(日付と分合わせて二つ)
     var num = 6;  //clickごとに表示したい件数
     var contents = '.info1all li'; // 対象のlist
     $(contents + ':nth-child(n + ' + (show + 1) + ')').addClass('is-hidden');
