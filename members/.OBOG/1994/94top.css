@@ -1,0 +1,20 @@
+BODY {
+  background-image : url("w6b.gif");
+  background-attachment: fixed;
+  background-position: 0% 0%;
+  background-repeat: repeat;
+  background-color:#FFFFFF;
+}
+
+table {font-size: 11pt;
+   background-color: #f0f0ff;
+   font-family:Verdana;color:black;
+   width: 600px; height: 200px;
+}
+
+b {
+	font-family: "Century Gothic";
+	font-size: 18pt;
+	font-weight: bold;
+	color: #ffaa00;
+}
