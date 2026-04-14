@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\about"
+    "\\about",
+    "\\headerfooter",
+    "\\headerfooter2"
   ],
-  "SelectedNode": "\\header.html",
+  "SelectedNode": "\\headerfooter2\\footer.html",
   "PreviewInSolutionExplorer": false
 }
